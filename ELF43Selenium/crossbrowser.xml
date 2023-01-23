@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browsername" value="chrome"></parameter>
+    <classes>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_Dmart_06"/>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_JioMart_07"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_KTM_04"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_RoyalEnfield_02"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_Bajaj_01"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_Yamaha_03"/>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_BlinkIt_05"/>
+    </classes>
+  </test> <!-- Test -->
+   
+   <test thread-count="5" name="FireFoxTest">
+  <parameter name="browsername" value="firefox"></parameter>
+    <classes>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_Dmart_06"/>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_JioMart_07"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_KTM_04"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_RoyalEnfield_02"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_Bajaj_01"/>
+      <class name="batchExecutionOfBikesinTestNG.TC_Yamaha_03"/>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_BlinkIt_05"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="ELF_43_chrome"></parameter>
+    <classes>
+      <class name="batchExecutionOfBikesinTestNG.TC_Bajaj_01"/>
+      <class name="batchExecutionOfShoppinginTetsNG.TC_BlinkIt_05"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
